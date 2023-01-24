@@ -182,8 +182,12 @@ body {
   background-color: var(--iris-color);
   cursor: pointer;
 }
-.hero-btn:hover,
+/* .hero-btn:hover,
 .hero-btn:focus {
+  background-color: var(--hover-color);
+} */
+
+.hero-btn:is(:hover, :focus) {
   background-color: var(--hover-color);
 }
 
