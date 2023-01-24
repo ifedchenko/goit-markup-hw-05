@@ -122,7 +122,15 @@ body {
 .header-link:focus {
   color: var(--hover-color);
 }
-
+.current-page::after {
+  content: '';
+  position: relative;
+  top: 25px;
+  display: block;
+  border-radius: 2px;
+  height: 4px;
+  background-color: var(--hover-color);
+}
 .contact-link {
   font-weight: 400;
   font-size: 16px;
@@ -580,4 +588,9 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+/* -----------------CONTACTS------------------- */
+.contact-fill {
+  padding-top: 700px;
 }
