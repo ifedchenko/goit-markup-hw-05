@@ -593,6 +593,7 @@ body {
 }
 
 /* -----------------CONTACTS------------------- */
-.contact-fill {
-  padding-top: 700px;
+.contact-page-content {
+  padding: 350px 0;
+  width: 1128px;
 }
