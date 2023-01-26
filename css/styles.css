@@ -122,13 +122,29 @@ body {
 .header-link:focus {
   color: var(--hover-color);
 }
-.current-page::after {
+/* .current-page::after {
   margin: 0;
   padding: 0;
   content: '';
   position: relative;
   top: 25px;
   display: block;
+  border-radius: 2px;
+  height: 4px;
+  background-color: var(--hover-color);
+} */
+
+.current-page {
+  position: relative;
+  color: var(--hover-color);
+}
+
+.current-page::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
   border-radius: 2px;
   height: 4px;
   background-color: var(--hover-color);
