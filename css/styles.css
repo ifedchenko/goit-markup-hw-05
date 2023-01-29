@@ -419,7 +419,9 @@ body {
 } */
 
 .customers-item-link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 168px;
   height: 88px;
   border: 1px solid #8e8f99;
@@ -435,7 +437,7 @@ body {
   fill: var(--hover-color);
 }
 
-.customers-item-icons.yaco {
+/* .customers-item-icons.yaco {
   margin-top: 23px;
   margin-left: 64px;
 }
@@ -458,7 +460,7 @@ body {
 .customers-item-icons.tag-line {
   margin-top: 23px;
   margin-left: 38px;
-}
+} */
 
 /* -----------------INDEX-FOOTER------------------- */
 
@@ -684,6 +686,8 @@ body {
   position: relative;
   overflow: hidden;
   display: block;
+
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   transition: box-shadow var(--transition-time);
 }
 
